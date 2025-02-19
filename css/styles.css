@@ -1,0 +1,43 @@
+@import url(./desktop.css);
+@import url(./tablet.css);
+@import url(./mobile.css);
+
+/* reset-css */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.container {
+    border: 1px solid #333;
+    width: 428px;
+    height: 926px;
+}
+
+body {
+    background-color: #ffc1c1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: #f0f0f0; */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}

@@ -1,0 +1,78 @@
+@media (max-width: 480px) {
+    body {
+        background-color: #ffc1c1;
+
+    }
+}
+
+/* CSS */
+.container {
+    padding: 45px 20px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.profile h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.container .date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.search-bar {
+    background-color: azure;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding-left: 16px 13px;
+    display: flex;
+    gap: 12px;
+
+}
+
+.search-bar input {
+    width: 100%;
+    background: transparent;
+    outline: none;
+    border: none;
+}
+
+.tasks-title {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.task-list .task-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #8b3a62;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    color: #8b3a62;
+}
